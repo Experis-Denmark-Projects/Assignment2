@@ -6,4 +6,4 @@ INSERT INTO Superheroes VALUES (2, 'Superman', 'Clark Kent', 'From Krypton');
 
 INSERT INTO Superheroes VALUES (3, 'The Flash', 'Barry Allen', 'Father framed for murdering mother');
 
-ALTER TABLE Superheroes ADD COLUMN ass_id REFERENCES Assistant;
+ALTER TABLE Superheroes ADD COLUMN ass_id SERIAL REFERENCES Assistant;
